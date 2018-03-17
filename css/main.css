@@ -1,0 +1,256 @@
+.wpapper {
+	position: relative;
+
+}
+
+.slick-slide img {
+	width: 100%;
+	height: auto;
+}
+
+.slide {
+	position: relative;
+}
+
+.logo {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 330px;
+	height: 100px;
+}
+
+.header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.location {
+	margin-right: 50px;
+	display: inline-block;
+}
+
+.location__item {
+	display: inline-block;
+}
+
+.location__item:after {
+	margin-left: 4px;
+	content: "|";
+	color: #fff;
+}
+
+.location__item:last-child:after {
+	display: none;
+}
+
+.location__item a {
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.toHomePage {
+	display: inline-block;
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+	font-style: italic;
+}
+
+.works {
+	margin-right: 50px;
+	display: inline-block;
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.btn {
+	display: inline-block;
+	padding: 9px;
+	border: 1px solid;
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: ease .3s;
+}
+
+.header__left {
+	padding-top: 7px;
+	float: left;
+}
+
+.header__right {
+	float: right;
+}
+
+.langEn:hover, .langZn:hover, .toHomePage:hover, .toHomePage span:hover, .works:hover, .email:hover, .telNumber:hover, .footer__cp:hover {
+	color: #3498db;
+}
+
+.langEn, .langZn, .toHomePage, .works, .email, .telNumber, .footer__cp {
+	transition: .3s;
+}
+
+.btn:hover {
+	border: 1px solid #3498db;
+	background-color: #3498db;
+}
+
+
+/*----------  employees  ----------*/
+
+.employeesWrapper {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.text {
+	width: 70%;
+	padding-right: 30px;
+	float: left;
+}
+
+h1 {
+	margin-top: 0;
+	margin-bottom: 60px;
+	font-size: 36px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.mid {
+	margin-top: 0;
+	margin-bottom: 60px;
+	font-size: 30px;
+	font-style: italic;
+}
+
+.bot {
+	margin-top: 0;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.employees {
+	width: 30%;
+	float: right;
+	font-size: 0;
+}
+
+.employees__item {
+	width: 50%;
+	float: left;
+}
+
+.staff {
+	width: 100%;
+	height: auto;
+}
+
+
+/*---------  banner ---------------*/
+
+.j-secondSlider .slick-prev {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 60px;
+	z-index: 2;
+	width: 37px;
+	height: 68px;
+	margin: auto;
+	background-color: transparent;
+	border: none;
+	font-size: 0;
+	background-image: url(../images/prev.png);
+}
+
+.j-secondSlider .slick-next {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 60px;
+	z-index: 2;
+	width: 37px;
+	height: 68px;
+	margin: auto;
+	background-color: transparent;
+	border: none;
+	font-size: 0;
+	background-image: url(../images/next.png);
+}
+
+.slick-prev:focus, .slick-next:focus {
+	outline: none;
+}
+
+h2 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 100%;
+	height: 69px;
+	font-size: 48px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.btn_banner {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 90px;
+	margin: auto;
+	width: 210px;
+	text-align: center;
+}
+
+/*----------- footer -------------*/
+
+.footer {
+	padding-top: 18px;
+	padding-bottom: 18px;
+	background-color: #000;	
+}
+
+.footer__item {
+	font-size: 14px;
+	float: left;
+	width: 25%;
+}
+
+.toHomePage_footer span {
+	color: #aeaeae;
+	font-size: 14px;
+}
+
+.telNumber {
+	text-decoration: none;
+}
+
+.footer__item a {
+	color: #fff;
+}
+
+.footer__cp {
+	color: #aeaeae;
+}
+
+.footer__cp a {
+	color: inherit;
+}
